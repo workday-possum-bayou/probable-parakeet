@@ -1,5 +1,5 @@
 /***** 폰트 *****/
-@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico:wght@300;400;700&display=swap');
 
 /***** 공통 *****/
 * {
@@ -22,7 +22,7 @@ html, body {
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     font-style: normal;
-    font-family: 'Gaegu', cursive;
+    font-family: 'Pacifico', cursive;
     overflow: hidden;
     background: #ea2c45;
 }
@@ -395,7 +395,7 @@ ul, li {
 .cover .heart {
     position: absolute;
     bottom: -5vw;
-    left: 50%;
+    left: 48%;
     width: 5vw;
     height: 5vw;
     cursor: pointer;
@@ -471,9 +471,9 @@ ul, li {
 
 .title__text {
     position: absolute;
-    top: -0.7vw;
-    left: 50%;
-    font-size: 3vw;
+    top: -0.70vw;
+    left: 1.5vw;
+    font-size: 1w;
     color: #fff;
     transform: translateX(-50%);
     z-index: 2;
